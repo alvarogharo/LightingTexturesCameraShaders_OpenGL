@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{6816f2f4-09da-446d-bb03-b3d2a2093e37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{5733b9ec-8bbc-47f2-ba7e-82b2f9eb2ce9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="scr\BOX.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="scr\auxiliar.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="scr\PLANE.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="scr\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="scr\auxiliar.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\shaders_P4\postProcessing.v0.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\shaders_P4\postProcessing.v0.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\shaders_P4\fwRendering.v0.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\shaders_P4\fwRendering.v0.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\shaders_P4\postProcessing.v1.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\shaders_P4\postProcessing.v1.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\shaders_P4\fwRendering.v1.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\shaders_P4\fwRendering.v1.vert">
+      <Filter>shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>

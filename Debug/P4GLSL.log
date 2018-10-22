@@ -1,0 +1,16 @@
+﻿Compilación iniciada a las 11/01/2016 12:44:56.
+     1>Proyecto "C:\Users\Snadkersote\Google Drive\Informatica grafica\P4 Alvaro\Visual2013\P4GLSL\P4GLSL.vcxproj" en el nodo 2 (Build destinos).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\libs\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt scr\main.cpp
+         main.cpp
+     1>c:\users\snadkersote\google drive\informatica grafica\p4 alvaro\visual2013\p4glsl\scr\main.cpp(706): warning C4305: '+=' : truncamiento de 'double' a 'float'
+     1>c:\users\snadkersote\google drive\informatica grafica\p4 alvaro\visual2013\p4glsl\scr\main.cpp(711): warning C4305: '-=' : truncamiento de 'double' a 'float'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Snadkersote\Google Drive\Informatica grafica\P4 Alvaro\Visual2013\P4GLSL\Debug\P4GLSL.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\libs\lib FreeImage.lib opengl32.lib freeglut.lib glew32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Snadkersote\Google Drive\Informatica grafica\P4 Alvaro\Visual2013\P4GLSL\Debug\P4GLSL.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Snadkersote\Google Drive\Informatica grafica\P4 Alvaro\Visual2013\P4GLSL\Debug\P4GLSL.lib" /MACHINE:X86 /SAFESEH Debug\auxiliar.obj
+         Debug\main.obj
+         P4GLSL.vcxproj -> C:\Users\Snadkersote\Google Drive\Informatica grafica\P4 Alvaro\Visual2013\P4GLSL\Debug\P4GLSL.exe
+     1>Compilación del proyecto terminada "C:\Users\Snadkersote\Google Drive\Informatica grafica\P4 Alvaro\Visual2013\P4GLSL\P4GLSL.vcxproj" (Build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:01.66
